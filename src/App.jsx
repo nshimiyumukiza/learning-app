@@ -1,6 +1,12 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
-import Solar from "./Components/Solar";
+import HomeCard from "./Components/HomeCard";
+import CousesList from "./Components/CousesList";
+import Footer from "./Components/Footer";
+import Student from "./Components/Student";
+import StudyGit from "./Components/StudyGit";
+
+
 
 const App = () =>{
   return (
@@ -8,7 +14,12 @@ const App = () =>{
 
 <Navbar />
 <Hero />
-<Solar message="soral panels" />
+<HomeCard />
+<CousesList />
+<Student />
+<StudyGit />
+<Footer />
+
     </>
   )
 }
